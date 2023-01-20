@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    border: 2px solid black;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./Baground.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainContainer{
+    height: 90%;
+    width: 30%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+.title{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #6c2625;
+}
+hr{
+    width: 90%;
+    height:4px;
+    background-color: gray;
+}
+.bill{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.bs1{
+    height: 20%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+p{
+    color: #6c2625;
+    font-size: 1rem;
+    
+}
+#input1{
+    height: 100%;
+    width: 30%;
+    margin-left: 5px;
+}
+
+.bs2{
+    height: 20%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.service{
+    height: 50%;
+    width: 50%;
+}
+.bs3{
+    height: 20%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bs3 input{
+    width: 30%;
+}
+.bill button{
+    width: 70%;
+    height: 15%;
+    background-color: #6c2625;
+    font-weight: bold;
+    color: white;
+}
+.res{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
